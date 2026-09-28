@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOctfcMy/kVfSkkzU1fvN6R",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rithikha-Rajendran/rithikha/blob/main/Soi\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "df = pd.read_csv(\"/content/student_visualization_dataset (1).csv\")\n",
+        "print(df.head(10))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f_6f2sZg2o9s",
+        "outputId": "3e74d278-c161-4d26-da3b-ef42fac61623"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "   Student_ID Student_Name  Study_Hours  Attendance_Percent  \\\n",
+            "0           1        Aarav            2                  78   \n",
+            "1           2         Diya            3                  85   \n",
+            "2           3        Arjun            4                  88   \n",
+            "3           4       Ananya            5                  92   \n",
+            "4           5        Vijay            1                  65   \n",
+            "5           6        Meera            6                  95   \n",
+            "6           7        Rahul            3                  80   \n",
+            "7           8        Priya            7                  96   \n",
+            "8           9        Kavin            2                  72   \n",
+            "9          10        Sneha            5                  90   \n",
+            "\n",
+            "   Screen_Time_Hours  Sleep_Hours  Marks  \n",
+            "0                  6            8     62  \n",
+            "1                  5            8     70  \n",
+            "2                  4            7     78  \n",
+            "3                  3            8     85  \n",
+            "4                  8            6     48  \n",
+            "5                  3            9     91  \n",
+            "6                  6            7     66  \n",
+            "7                  2            9     94  \n",
+            "8                  7            7     55  \n",
+            "9                  4            8     84  \n"
+          ]
+        }
+      ]
+    }
+  ]
+}
